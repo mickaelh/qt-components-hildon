@@ -65,25 +65,25 @@ QT_BEGIN_NAMESPACE
 
 namespace QDBusUtil
 {
-    QDBUSUTIL_H bool isValidInterfaceName(const QString &ifaceName);
+    Q_DBUS_EXPORT bool isValidInterfaceName(const QString &ifaceName);
 
-    QDBUSUTIL_H bool isValidUniqueConnectionName(const QString &busName);
+    Q_DBUS_EXPORT bool isValidUniqueConnectionName(const QString &busName);
 
-    QDBUSUTIL_H bool isValidBusName(const QString &busName);
+    Q_DBUS_EXPORT bool isValidBusName(const QString &busName);
 
-    QDBUSUTIL_H bool isValidMemberName(const QString &memberName);
+    Q_DBUS_EXPORT bool isValidMemberName(const QString &memberName);
 
-    QDBUSUTIL_H bool isValidErrorName(const QString &errorName);
+    Q_DBUS_EXPORT bool isValidErrorName(const QString &errorName);
 
-    QDBUSUTIL_H bool isValidPartOfObjectPath(const QString &path);
+    Q_DBUS_EXPORT bool isValidPartOfObjectPath(const QString &path);
 
-    QDBUSUTIL_H bool isValidObjectPath(const QString &path);
+    Q_DBUS_EXPORT bool isValidObjectPath(const QString &path);
 
-    QDBUSUTIL_H bool isValidSignature(const QString &signature);
+    Q_DBUS_EXPORT bool isValidSignature(const QString &signature);
 
-    QDBUSUTIL_H bool isValidSingleSignature(const QString &signature);
+    Q_DBUS_EXPORT bool isValidSingleSignature(const QString &signature);
 
-    QDBUSUTIL_H QString argumentToString(const QVariant &variant);
+    Q_DBUS_EXPORT QString argumentToString(const QVariant &variant);
 
     enum AllowEmptyFlag {
         EmptyAllowed,
